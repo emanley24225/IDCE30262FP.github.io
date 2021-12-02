@@ -1,5 +1,5 @@
 var youthicon = L.icon({
-       iconUrl: '<img src="https://img.icons8.com/ios/20/000000/skateboard.png"/>',
+       iconUrl: 'https://img.icons8.com/ios/20/000000/skateboard.png',
        iconSize: [20,20]
      });
     var youth1 = L.marker([42.053630, -71.88], {icon: youthicon}).addTo(map);{}
