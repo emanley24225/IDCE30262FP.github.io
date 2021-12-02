@@ -57,7 +57,7 @@ var fridge_icon1 = L.icon({
         });
 
 var houseicon = L.icon({
-       iconUrl: 'https://png.pngtree.com/png-clipart/20190516/original/pngtree-vector-house-icon-png-image_4013710.jpg',
+       iconUrl: 'https://img.icons8.com/ios-glyphs/20/000000/prefab-house.png',
        iconSize: [20,20]
      });
     var house1 = L.marker([42.271270, -71.795860], {icon: houseicon}).addTo(housing);{}
