@@ -1,6 +1,6 @@
 
 var hc_icon1 = L.icon({
-      iconUrl: 'images/hc.jpg',
+      iconUrl: 'https://emanley24225.github.io/IDCE30262FP/Images/hc.JPG',
       iconSize: [20,20]
     });
     var hc_marker1 = L.marker([42.273568, -71.748091], {icon: hc_icon1}).addTo(map);{}
@@ -38,5 +38,3 @@ var hc_icon1 = L.icon({
       map.setView(e.latlng, 14);
       hc_marker5.bounce({duration: 500, height: 100}, function(){console.log("done")});
       });
-
-  
