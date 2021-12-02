@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title> Worcester Resources </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="javascript/worcester.js"></script>
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
@@ -27,6 +29,10 @@
 <div id="mapid" style="width: 100%; height:400px; margin: auto;"></div>
 <script src="javascript/webmapping.js"></script>
 <script src="javascript/bounce.js"></script>
+
+<script type="text/javascript">
+    var geojson = L.geoJson(worcester).addTo(map);
+</script>
 
 
 <div id= "aboutUs">
