@@ -1,5 +1,5 @@
 var fridge_icon1 = L.icon({
-        iconUrl: 'images/fridge.jpg',
+        iconUrl: '<img src="https://img.icons8.com/ios-glyphs/30/000000/fridge.png"/>',
         iconSize: [20,20]
       });
     var fridge_marker1 = L.marker([42.251569, -71.819814], {icon: fridge_icon1}).addTo(map);{}
