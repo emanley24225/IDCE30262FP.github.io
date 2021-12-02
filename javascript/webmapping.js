@@ -120,7 +120,6 @@ var hc_icon1 = L.icon({
       map.setView(e.latlng, 14);
       });
 
-
       var mbAttr = 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>';
     	var mbUrl = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZW1hbmxleTI0MjI1IiwiYSI6ImNrdjJqMHd5dDB2ZDcyd21zZml5MXFjdXUifQ.0kbtBFlp3A-JjCWai7KhXQ';
 
@@ -130,7 +129,7 @@ var hc_icon1 = L.icon({
       var map = L.map('mapid', {
         center: [42.2626, -71.8023],
         zoom: 12,
-        layers: [healthcare]
+        layers: [grayscale]
       });
 
       var baseMaps = {
