@@ -1,4 +1,3 @@
-
 var hc_icon1 = L.icon({
       iconUrl: 'https://emanley24225.github.io/IDCE30262FP/Images/hc.JPG',
       iconSize: [20,20]
@@ -38,3 +37,9 @@ var hc_icon1 = L.icon({
       map.setView(e.latlng, 14);
       hc_marker5.bounce({duration: 500, height: 100}, function(){console.log("done")});
       });
+
+var healthcare = L.layerGroup([hc_marker1, hc_marker2 , hc_marker3, hc_marker4, hc_marker5]);
+var overlayMaps = {
+    "healthcare": healthcare
+};
+L.control.layers(overlayMaps).addTo(map);
