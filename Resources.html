@@ -17,6 +17,36 @@
 
   </head>
   <body style="background-color:#FAFDF3;">
+    
+        
+ <!--     <script>
+    require(["esri/config","esri/Map", "esri/views/MapView",  "esri/layers/FeatureLayer"
+  ], function (esriConfig,Map, MapView, FeatureLayer) {
+
+      esriConfig.apiKey = "AAPK4ddd585da99d4e9388e089683ae81270PumgZVfmyH2SeOl8gyRb0s96fwqdCSBDTKAjmJujzWp3uCLJNDXOFmVA0x16urVb";
+
+      const map = new Map({
+        basemap: "dark-gray" // Basemap layer service
+      });
+
+      const view = new MapView({
+        map: map,
+        center: [-71.80, 42.26], // Longitude, latitude
+        zoom: 5, // Zoom level
+        container: "viewDiv" // Div element
+      });
+
+
+//This is where I call the county shapefile from my developer account
+
+    const worcester = new FeatureLayer({
+      url: "https://clarku.maps.arcgis.com/home/webmap/viewer.html?webmap=b3fbc7abad174ebf8933c3f4a6cb63b8"
+    });
+
+    map.add(worcester);
+
+    });
+-->
 
 <header>
   <h1 style="text-align:center;">Map of Worcester Services</h1>
