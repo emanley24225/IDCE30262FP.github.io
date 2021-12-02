@@ -23,15 +23,25 @@
   <p style="text-align:center;"><b>How to use:</b> The webmap below displays the geographical locations of service-based non-profits in the City of Worcester, Massachusetts. Click on an icon to see information about any of the non-profits and see what services they offer.</p>
 </header>
 
-<div id="mapid" style="width: 100%; height: 800px;"></div>
+<div id="mapid" style="width: 100%; height:400px; margin: auto;"></div>
 <script src="javascript/webmapping.js"></script>
 <script src="javascript/healthcare.js"></script>
 <script src="javascript/housing.js"></script>
 
+<div id= "aboutUs">
+<button id="myButton" class="float-left submit-button" >About Us</button>
+
+<script>
+    document.getElementById("myButton").onclick = function () {
+        location.href = "https://emanley24225.github.io/IDCE30262FP/index.html";
+    };
+</script>
+</div>
+
 <div class="dropdown">
   <button onclick="myFunction()" class="dropbtn">Dropdown</button>
   <div id="myDropdown" class="dropdown-content">
-    <a href="healthcare"> Healthcare </a>
+    <a href="https://emanley24225.github.io/IDCE30262FP/healthcare.html"> Healthcare </a>
     <a href="youth"> Youth Resources </a>
     <a href="affordable"> Affordable Housing </a>
 </div>

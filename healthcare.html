@@ -23,12 +23,15 @@
 
     <script src="javascript/webmapping.js"></script>
     <script src="javascript/healthcare.js"></script>
+
 <div id="goback">
-    <form>
-      <p class="tab"
-     <input type="button" value="Go back!" onclick="history.back()">
-     </p>
-    </form>
+  <button onclick="goBack()">Go Back</button>
+
+<script>
+function goBack() {
+window.history.back();
+}
+</script>
 </div>
 
   </body>
