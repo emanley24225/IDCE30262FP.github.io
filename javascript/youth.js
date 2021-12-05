@@ -2,7 +2,7 @@ var youthicon = L.icon({
        iconUrl: 'https://img.icons8.com/ios/50/000000/tire-swing--v1.png',
        iconSize: [20,20]
  });
-    var youth1 = L.marker([42.053630, -71.88], {icon: youthicon}).addTo(map);{}
+    var youth1 = L.marker([42.249809, -71.814774], {icon: youthicon}).addTo(map);{}
     youth1.bindPopup("<b> Boys & Girls Club Worcester </b> <br> <p> Our Mission is to help youth, especially those who need us most, develop the qualities needed to become responsible citizens and community leaders.</p> <br> <p> 65 Tainter Street Worcester, MA 01610 </p> <br> <a href= https://www.bgcworcester.org/ /> Here is the website </a>").openPopup();
      youth1.on("click", function(e) {
      map.setView(e.latlng, 14);
