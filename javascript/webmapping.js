@@ -153,7 +153,7 @@ var hc_icon1 = L.icon({
 
       var map = L.map('mapid', {
         center: [42.2626, -71.8023],
-        zoom: 10,
+        zoom: 11,
         layers: [grayscale]
       });
 
